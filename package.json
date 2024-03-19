@@ -26,9 +26,6 @@
   "engine-strict": {
     "node": ">=8"
   },
-  "dependencies": {
-    "commander": "2.11.x"
-  },
   "files": [
     "lib",
     "bin",
@@ -36,9 +33,6 @@
     "chrome-remote-interface.js",
     "webpack.config.js"
   ],
-  "bin": {
-    "chrome-remote-interface": "bin/client.js"
-  },
   "main": "index.js",
   "browser": "chrome-remote-interface.js",
   "devDependencies": {
