@@ -59,5 +59,9 @@
     "test": "./scripts/run-tests.sh",
     "webpack": "webpack",
     "prepare": "webpack"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
   }
 }
