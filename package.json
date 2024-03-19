@@ -1,10 +1,12 @@
 {
-  "name": "chrome-remote-interface",
+  "name": "@aleclarson/chrome-remote-interface",
+  "version": "0.33.0",
   "author": "Andrea Cardaci <cyrus.and@gmail.com>",
   "license": "MIT",
   "contributors": [
     "Andrey Sidorov <sidoares@yandex.ru>",
-    "Greg Cochard <greg@gregcochard.com>"
+    "Greg Cochard <greg@gregcochard.com>",
+    "Alec Larson <retropragma@proton.me>"
   ],
   "description": "Chrome Debugging Protocol interface",
   "keywords": [
@@ -14,15 +16,7 @@
     "remote",
     "interface"
   ],
-  "homepage": "https://github.com/cyrus-and/chrome-remote-interface",
-  "version": "0.33.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/cyrus-and/chrome-remote-interface.git"
-  },
-  "bugs": {
-    "url": "http://github.com/cyrus-and/chrome-remote-interface/issues"
-  },
+  "repository": "aleclarson/chrome-remote-interface",
   "engine-strict": {
     "node": ">=8"
   },
