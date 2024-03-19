@@ -13,6 +13,6 @@ node -p '
     const protocols = process.argv.slice(1).map((path) => JSON.parse(fs.readFileSync(path)));
     protocols[0].domains.push(...protocols[1].domains);
     "export default " + JSON.stringify(protocols[0], null, 4);
-' "$browser" "$js" >lib/protocol.js
+' "$browser" "$js" >protocol.js
 
-git diff lib/protocol.js
+git diff protocol.js
